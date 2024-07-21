@@ -5,14 +5,14 @@ import { motion } from "framer-motion";
 import { Space_Grotesk } from "next/font/google";
 const products = [
   {
-    title: "EzTableBooking Admin Panel ",
-    link: "https://eztablebooking.netlify.app/",
+    title: "EzTableBooking",
+    link: "https://ez-table-booking.vercel.app/",
     thumbnail: "/projects/ez.png",
   },
 
   {
     title: "Profile Website",
-    link: "https://profile-web-zeta.vercel.app/",
+    link: "https://profile-web-55.vercel.app/",
     thumbnail: "/projects/profile.png",
   },
   // Ptesu
@@ -30,12 +30,12 @@ const products = [
   },
   {
     title: "Codesandbox clone",
-    link: "https://codesandbox55.netlify.app/",
+    link: "https://codesandbox-55.vercel.app/",
     thumbnail: "/projects/codesand.png",
   },
   {
     title: "Ricoma",
-    link: "https://ricoma55.netlify.app/",
+    link: "https://ricoma-55.vercel.app/",
     thumbnail: "/projects/ricoma.png",
   },
   {
@@ -46,12 +46,12 @@ const products = [
   },
   {
     title: "Three Js 3D Model Project",
-    link: "https://three-js55.netlify.app/",
+    link: "https://three-js-55.vercel.app/",
     thumbnail: "/projects/threejs.png",
   },
   {
     title: "Watch Dog",
-    link: "https://three-js55.netlif/",
+    link: "https://watch-dog-55.vercel.app/",
     thumbnail: "/projects/dog.png",
   },
 ];
