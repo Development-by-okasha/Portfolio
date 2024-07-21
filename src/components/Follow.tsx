@@ -38,7 +38,7 @@ function Follow() {
             >
               <FaLinkedin size={40} />
             </a>
-            <a href="#" className="text-blue-300   hover:text-white">
+            <a href="" className="text-blue-300   hover:text-white">
               <FaTwitter size={40} />
             </a>
             <a
@@ -47,13 +47,13 @@ function Follow() {
             >
               <FaInstagram size={40} />
             </a>
-            <a href="#" className="text-blue-300   hover:text-white">
+            <a href="" className="text-blue-300   hover:text-white">
               <FaFacebook size={40} />
             </a>
-            <a href="#" className="text-blue-300   hover:text-white">
+            <a href="" className="text-blue-300   hover:text-white">
               <FaYoutube size={40} />
             </a>
-            <a href="#" className="text-blue-300   hover:text-white">
+            <a href="https://github.com/Development-by-okasha" className="text-blue-300   hover:text-white">
               <FaGithub size={40} />
             </a>
           </div>
