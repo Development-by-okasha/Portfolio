@@ -65,27 +65,38 @@ function About() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeInOut" }}
           >
-            I am a passionate Frontend Web Developer dedicated to creating
-            engaging and dynamic user interfaces. My journey in the tech
-            industry has equipped me with a strong foundation in HTML, CSS, and
-            JavaScript, along with expertise in modern frontend frameworks like
-            React. I thrive on transforming innovative ideas into seamless and
-            responsive web applications, ensuring a top-notch user experience.
-            My dedication to staying updated with the latest industry trends
-            allows me to continually refine my skills and deliver cutting-edge
-            solutions. Whether collaborating with a team or working
-            independently, I am committed to crafting web experiences that are
-            not only visually appealing but also highly functional.
+            I’m a frontend developer with 3+ years of experience building
+            performant, user-friendly products across web and mobile. From
+            marketing sites to data-heavy dashboards, I rely on React, Next.js,
+            Vue.js, and React&nbsp;Native to deliver accessible interfaces that feel
+            fast and intuitive. I’m comfortable jumping into WordPress for
+            custom themes, connecting REST APIs, or standing up light Laravel /
+            Django backends when projects need full-stack support.
+          </motion.p>
+          <motion.p
+            className="mt-6 text-lg text-justify max-w-2xl text-neutral-300"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: "easeInOut", delay: 0.1 }}
+          >
+            Every build starts with design collaboration—translating Figma files
+            into pixel-perfect layouts, documenting reusable component patterns,
+            and baking in performance budgets from the first commit. I love
+            iterating with teams, pairing with backend engineers, and shipping
+            incremental improvements that make a measurable impact.
           </motion.p>
           <motion.div
             className="mt-8"
-            whileHover={{ scale: 1.1, rotate: 5 }}
-            whileTap={{ scale: 0.9, rotate: -5 }}
-            transition={{ duration: 0.3 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.98 }}
+            transition={{ duration: 0.2 }}
           >
-            <button className="bg-[#2fb9db] hover:bg-[#3299b3] text-white py-4 px-6 rounded-full text-lg">
+            <a
+              href="#contact"
+              className="bg-[#2fb9db] hover:bg-[#1b8aa5] text-white py-4 px-6 rounded-full text-lg font-semibold transition-colors inline-block"
+            >
               Contact me
-            </button>
+            </a>
           </motion.div>
         </div>
       </div>

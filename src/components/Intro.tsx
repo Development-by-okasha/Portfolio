@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { Karla, Great_Vibes } from "next/font/google";
-import { GoDownload } from "react-icons/go";
 import profileImage from "../../public/file.png";
 import codeImg from "../../public/code.png";
 import Image from "next/image";
@@ -31,7 +30,7 @@ function Intro() {
               <h1
                 className={`text-3xl text-[#878a89] mob:text-center ${KARLA.className} `}
               >
-                FRONTEND WEB DEVELOPER
+                FRONTEND ENGINEER · UI SPECIALIST
               </h1>
               <h1
                 className={`text-6xl mob:text-5xl mob:text-center text-[#2fb9db] ${space.className} `}
@@ -41,10 +40,26 @@ function Intro() {
               <p
                 className={`max-w-xl mob:w-full text-justify text-xl font-medium bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-green-300 to-teal-400 `}
               >
-                I&apos;m a Frontend Developer crafting seamless user experiences
-                with innovative front-end solutions and transforming ideas into
-                interactive and responsive web applications.
+                I design and build responsive web and mobile interfaces with a
+                focus on performance, accessibility, and maintainable code.
+                Over the last 3+ years I&apos;ve shipped React, Next.js, Vue, and
+                React&nbsp;Native products, integrated REST APIs, and partnered
+                with designers to ship pixel-perfect experiences that scale.
               </p>
+              <div className="flex gap-4 mob:justify-center">
+                <a
+                  href="#projects"
+                  className="bg-[#2fb9db] hover:bg-[#1b8aa5] text-white py-3 px-6 rounded-full text-base font-semibold transition-colors"
+                >
+                  View Recent Work
+                </a>
+                <a
+                  href="#contact"
+                  className="border border-[#2fb9db] hover:bg-[#2fb9db]/10 text-white py-3 px-6 rounded-full text-base font-semibold transition-colors"
+                >
+                  Let&apos;s Collaborate
+                </a>
+              </div>
             </motion.div>
             <motion.div
               className="relative"
@@ -65,21 +80,6 @@ function Intro() {
                     alt="Muhammmad Okasha"
                     className="  h-[34rem] mob:h-[23rem]  rounded-full   absolute -top-16 left-0  "
                   />
-                  <motion.button
-                    className="bg-[#0b80e6] hover:bg-[#2d74b2] text-white py-4 px-4 rounded-full absolute w-24 h-24  mob:h-14 mob:w-14 flex items-center bottom-0 justify-center"
-                    animate={{
-                      y: [0, -20, 0],
-                      transition: {
-                        duration: 1.5,
-                        ease: "easeInOut",
-                        repeat: Infinity,
-                        repeatType: "loop",
-                      },
-                    }}
-                  >
-                    <GoDownload size={20} className="mob:hidden" />
-                    <span className="ml-2">CV</span>
-                  </motion.button>
                   <motion.button
                     className=" py-4 px-4 rounded-full absolute  flex -right-20  mob:-right-0.5 -top-20 items-center  justify-center"
                     animate={{

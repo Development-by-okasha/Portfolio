@@ -5,52 +5,49 @@ import { motion } from "framer-motion";
 import { Space_Grotesk } from "next/font/google";
 const products = [
   {
-    title: "EzTableBooking",
+    title: "EzTableBooking — Restaurant reservations",
     link: "https://ez-table-booking.vercel.app/",
     thumbnail: "/projects/ez.png",
   },
 
   {
-    title: "Profile Website",
+    title: "Personal Portfolio — Next.js site",
     link: "https://profile-web-55.vercel.app/",
     thumbnail: "/projects/profile.png",
   },
   // Ptesu
   {
-    title:
-      " A robust and user-friendly government website designed to provide citizens with easy access to services, information, and resources",
+    title: "PTESU — Citizen services portal",
     link: "https://ptesu.gov.pk/",
     thumbnail: "/projects/ptesu.png",
   },
   {
-    title:
-      "A robust and user-friendly website designed to provide citizens with easy access to services, information, and resources",
+    title: "Rehman Foundation — Non-profit platform",
     link: "https://rehmanfoundation.org/",
     thumbnail: "/projects/rehman.png",
   },
   {
-    title: "Codesandbox clone",
+    title: "Codesandbox Clone — In-browser IDE",
     link: "https://codesandbox-55.vercel.app/",
     thumbnail: "/projects/codesand.png",
   },
   {
-    title: "Ricoma",
+    title: "Ricoma — Product marketing site",
     link: "https://ricoma-55.vercel.app/",
     thumbnail: "/projects/ricoma.png",
   },
   {
-    title:
-      "A  user-friendly online store designed to provide ease coustomer services and resources",
+    title: "Arafat Store — Ecommerce experience",
     link: "https://three-js55.netlify.app/",
     thumbnail: "/projects/arafat.png",
   },
   {
-    title: "Three Js 3D Model Project",
+    title: "Three.js 3D Model Explorer",
     link: "https://three-js-55.vercel.app/",
     thumbnail: "/projects/threejs.png",
   },
   {
-    title: "Watch Dog",
+    title: "Watch Dog — Pet care landing page",
     link: "https://watch-dog-55.vercel.app/",
     thumbnail: "/projects/dog.png",
   },
